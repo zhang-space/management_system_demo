@@ -1,0 +1,254 @@
+.mall-container {
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.mall-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.mall-search {
+  width: 50%;
+}
+
+.mall-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.mall-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+}
+
+.filter-label {
+  color: #595959;
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.price-filter {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.view-toggle {
+  margin-left: auto;
+}
+
+.mall-content {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  min-height: 500px;
+}
+
+/* 网格视图样式 */
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.current-price {
+  color: #f5222d;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.original-price {
+  color: #8c8c8c;
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+.product-tags {
+  display: flex;
+  gap: 4px;
+}
+
+.product-sales {
+  color: #8c8c8c;
+  font-size: 13px;
+}
+
+/* 列表视图样式 - 为管理后台优化 */
+.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list-card {
+  width: 100%;
+  margin-bottom: 0;
+  border-radius: 2px;
+}
+
+.list-item {
+  display: flex;
+  gap: 16px;
+}
+
+.list-image {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.list-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.list-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.list-price {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.list-stats {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.list-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mall-pagination {
+  text-align: right;
+  margin-top: 16px;
+  background-color: #fff;
+  padding: 12px 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+/* 管理后台特有样式 */
+.admin-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.admin-card {
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s;
+}
+
+.admin-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+}
+
+.status-active {
+  color: #52c41a;
+}
+
+.status-inactive {
+  color: #ff4d4f;
+}
+
+.status-pending {
+  color: #faad14;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.quantity {
+  display: inline-block;
+  min-width: 32px;
+  text-align: center;
+}
+
+/* 快速查看弹窗样式 */
+.quick-view-content {
+  padding: 8px;
+}
+
+.product-meta {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 抽屉样式优化 */
+.drawer-list-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* 数据统计卡片样式 */
+.stat-card {
+  text-align: center;
+  padding: 16px;
+  border-radius: 2px;
+}
+
+.stat-card-title {
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+.stat-card-value {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.stat-card-desc {
+  color: #8c8c8c;
+  font-size: 12px;
+}
